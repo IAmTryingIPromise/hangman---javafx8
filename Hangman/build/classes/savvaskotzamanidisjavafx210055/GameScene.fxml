@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('savvaskotzamanidisjavafx210055/MainMenuimg.jpg')" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="savvaskotzamanidisjavafx210055.GameSceneController">
+   <children>
+      <GridPane fx:id="btnsGridPane" alignment="CENTER" layoutX="160.0" layoutY="417.0" prefHeight="150.0" prefWidth="400.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btnA" mnemonicParsing="false" onAction="#btnAAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="A">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnJ" mnemonicParsing="false" onAction="#btnJAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="J" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnD" mnemonicParsing="false" onAction="#btnDAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="D" GridPane.columnIndex="3">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnM" mnemonicParsing="false" onAction="#btnMAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="M" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnS" mnemonicParsing="false" onAction="#btnSAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="S" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnE" mnemonicParsing="false" onAction="#btnEAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="E" GridPane.columnIndex="4">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnB" mnemonicParsing="false" onAction="#btnBAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="B" GridPane.columnIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnF" mnemonicParsing="false" onAction="#btnFAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="F" GridPane.columnIndex="5">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnG" mnemonicParsing="false" onAction="#btnGAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="G" textAlignment="CENTER" GridPane.columnIndex="6">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnN" mnemonicParsing="false" onAction="#btnNAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="N" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnK" mnemonicParsing="false" onAction="#btnKAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="K" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnT" mnemonicParsing="false" onAction="#btnTAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="T" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnU" mnemonicParsing="false" onAction="#btnUAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="U" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnV" mnemonicParsing="false" onAction="#btnVAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="V" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnW" mnemonicParsing="false" onAction="#btnWAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="W" GridPane.columnIndex="4" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnX" mnemonicParsing="false" onAction="#btnXAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="X" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnO" mnemonicParsing="false" onAction="#btnOAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="O" GridPane.columnIndex="5" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnP" mnemonicParsing="false" onAction="#btnPAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="P" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnY" mnemonicParsing="false" onAction="#btnYAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="Y" GridPane.columnIndex="6" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnZ" mnemonicParsing="false" onAction="#btnZAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="Z" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnQ" mnemonicParsing="false" onAction="#btnQAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="Q" GridPane.columnIndex="7" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnH" mnemonicParsing="false" onAction="#btnHAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="H" textAlignment="CENTER" GridPane.columnIndex="7">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnI" mnemonicParsing="false" onAction="#btnIAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="I" textAlignment="CENTER" GridPane.columnIndex="8">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnR" mnemonicParsing="false" onAction="#btnRAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="R" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnL" mnemonicParsing="false" onAction="#btnLAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="L" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnC" mnemonicParsing="false" onAction="#btnCAct" onMouseEntered="#btnLetterHover" prefHeight="30.0" prefWidth="30.0" text="C" GridPane.columnIndex="2">
+               <font>
+                  <Font name="Georgia" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </GridPane>
+      <Button fx:id="btnExit" layoutX="700.0" layoutY="22.0" mnemonicParsing="false" onAction="#btnExitAct" onMouseEntered="#btnLetterHover" prefHeight="36.0" prefWidth="82.0" text="Main Menu" textAlignment="CENTER">
+         <font>
+            <Font name="Georgia" size="12.0" />
+         </font>
+      </Button>
+      <Circle fx:id="stickmanHead" fill="#ffffff00" layoutX="195.0" layoutY="113.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="6.0" visible="false" />
+      <Line endX="40.0" layoutX="55.0" layoutY="330.0" startX="-40.0" strokeLineCap="ROUND" strokeWidth="6.0" />
+      <Line endX="70.0" layoutX="125.0" layoutY="60.0" startX="-70.0" strokeLineCap="ROUND" strokeWidth="6.0" />
+      <Line endY="125.0" layoutX="55.0" layoutY="200.0" startY="-140.0" strokeLineCap="ROUND" strokeWidth="6.0" />
+      <Line endY="10.0" layoutX="195.0" layoutY="70.0" startY="-10.0" strokeLineCap="ROUND" strokeWidth="6.0" />
+      <Line fx:id="stickmanBody" endY="45.0" layoutX="195.0" layoutY="191.0" startY="-45.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="stickmanLeftArm" endX="30.0" layoutX="220.0" layoutY="166.0" rotate="45.0" startX="-30.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="stickmanRightArm" endX="30.0" layoutX="170.0" layoutY="166.0" rotate="135.0" startX="-30.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="stickmanLeftLeg" endX="30.0" layoutX="220.0" layoutY="261.0" rotate="45.0" startX="-30.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="stickmanRightLeg" endX="30.0" layoutX="170.0" layoutY="261.0" rotate="135.0" startX="-30.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line1" endX="12.0" layoutX="295.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line2" endX="12.0" layoutX="325.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line3" endX="12.0" layoutX="355.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line4" endX="12.0" layoutX="385.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line5" endX="12.0" layoutX="415.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line6" endX="12.0" layoutX="445.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line7" endX="12.0" layoutX="475.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line8" endX="12.0" layoutX="505.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line9" endX="12.0" layoutX="535.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Line fx:id="line10" endX="12.0" layoutX="565.0" layoutY="273.0" startX="-12.0" strokeLineCap="ROUND" strokeWidth="6.0" visible="false" />
+      <Label fx:id="lt1" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="270.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt2" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="300.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt3" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="330.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt4" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="360.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt5" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="390.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt6" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="420.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt7" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="450.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt8" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="480.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt9" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="510.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label fx:id="lt10" alignment="CENTER" contentDisplay="CENTER" ellipsisString="" layoutX="540.0" layoutY="236.0" prefHeight="44.0" prefWidth="51.0" textAlignment="CENTER" visible="false">
+         <font>
+            <Font name="Georgia Bold" size="26.0" />
+         </font>
+      </Label>
+   </children> 
+</AnchorPane>
