@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SavvasKotzamanidisJavaFX210055.jnlp">
+  <information>
+    <title>SavvasKotzamanidisJavaFX210055</title>
+    <vendor>silve</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SavvasKotzamanidisJavaFX210055.jar" size="2716046" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="savvaskotzamanidisjavafx210055.SavvasKotzamanidisJavaFX210055"  name="SavvasKotzamanidisJavaFX210055" />
+  <update check="always"/>
+</jnlp>

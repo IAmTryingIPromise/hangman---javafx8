@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-image: url('savvaskotzamanidisjavafx210055/MainMenuimg.jpg')" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="savvaskotzamanidisjavafx210055.HangManController">
+   <children>
+      <Button fx:id="btnSet" layoutX="105.0" layoutY="452.0" maxHeight="60.0" maxWidth="120.0" minHeight="30.0" minWidth="60.0" mnemonicParsing="false" onAction="#btnSettingsAct" onMouseEntered="#btnSettingsHover" prefHeight="60.0" prefWidth="120.0" text="Settings" textAlignment="CENTER">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnQui" layoutX="525.0" layoutY="452.0" maxHeight="60.0" maxWidth="120.0" minHeight="30.0" minWidth="60.0" mnemonicParsing="false" onAction="#btnQuitAct" onMouseEntered="#btnQuitHover" prefHeight="60.0" prefWidth="120.0" text="Quit" textAlignment="CENTER">
+         <font>
+            <Font name="Georgia" size="20.0" />
+         </font></Button>
+      <Button fx:id="btnStart" layoutX="263.0" layoutY="225.0" maxHeight="75.0" maxWidth="275.0" minHeight="75.0" minWidth="275.0" mnemonicParsing="false" onAction="#btnStartAct" onMouseEntered="#btnStartHover" prefHeight="75.0" prefWidth="275.0" text="Start Game">
+         <font>
+            <Font name="Georgia" size="32.0" />
+         </font></Button>
+      <ChoiceBox fx:id="numOfWordsBox" layoutX="468.0" layoutY="324.0" maxHeight="30.0" maxWidth="70.0" minHeight="15.0" minWidth="35.0" onMouseEntered="#choiceBoxSound" prefHeight="30.0" prefWidth="70.0" />
+      <Label layoutX="190.0" layoutY="85.0" prefHeight="115.0" prefWidth="422.0" text="Hanged Man" textAlignment="CENTER">
+         <font>
+            <Font name="Georgia Bold" size="64.0" />
+         </font>
+      </Label>
+      <Label layoutX="263.0" layoutY="320.0" prefHeight="30.0" prefWidth="177.0" text="Choose Number of Letters">
+          <font>
+              <Font name="Georgia Bold" size="12.0" />
+          </font>
+      </Label>
+   </children> 
+</AnchorPane>
