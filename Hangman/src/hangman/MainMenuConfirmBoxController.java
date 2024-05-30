@@ -2,7 +2,7 @@
 this controller sets up the confirmation box when the plays presses exit
 inside the main game
 */
-package savvaskotzamanidisjavafx210055;
+package Hangman;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -38,7 +38,7 @@ public class MainMenuConfirmBoxController implements Initializable {
     private void btnYesClicked(ActionEvent event) {
         HangManController.onClick.play();
         GameSceneController.confrmStage.close();
-        SavvasKotzamanidisJavaFX210055.stage.setScene(SavvasKotzamanidisJavaFX210055.main);
+        Hangman.stage.setScene(Hangman.main);
     }
     
     

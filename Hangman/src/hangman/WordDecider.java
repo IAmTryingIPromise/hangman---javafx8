@@ -1,7 +1,7 @@
 /*
 this class picks a random word for the current round of the game
 */
-package savvaskotzamanidisjavafx210055;
+package Hangman;
 
 import java.io.File;
 import java.io.IOException;

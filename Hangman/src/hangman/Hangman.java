@@ -1,7 +1,7 @@
 /*
 this is the main executable file for the whole game
 */
-package savvaskotzamanidisjavafx210055;
+package Hangman;
 
 import java.io.File;
 import javafx.application.*;
@@ -14,7 +14,7 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 
 
-public class SavvasKotzamanidisJavaFX210055 extends Application {
+public class Hangman extends Application {
     
     public static void main(String[] args) {
         launch(args);

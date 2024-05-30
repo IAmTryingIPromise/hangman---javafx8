@@ -2,7 +2,7 @@
 this is the controller for the game over scene
 it comes up when the player loses
 */
-package savvaskotzamanidisjavafx210055;
+package Hangman;
 
 import java.io.IOException;
 import java.net.URL;
@@ -56,7 +56,7 @@ public class LoseSceneController implements Initializable {
     private void btnMainMenuAct(ActionEvent event) {
         HangManController.onClick.play();
         GameSceneController.lostStage.close();
-        SavvasKotzamanidisJavaFX210055.stage.setScene(SavvasKotzamanidisJavaFX210055.main);
+        Hangman.stage.setScene(Hangman.main);
     }
     
 }

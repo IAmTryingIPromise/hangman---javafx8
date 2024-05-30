@@ -1,7 +1,7 @@
 /*
 this controller is for the settings scene
 */
-package savvaskotzamanidisjavafx210055;
+package Hangman;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -47,9 +47,9 @@ public class SettingsSceneController implements Initializable {
         /*
         control the background music volume
         */
-        musicslide.setValue(SavvasKotzamanidisJavaFX210055.mediaPlayer.getVolume() * 100);
+        musicslide.setValue(Hangman.mediaPlayer.getVolume() * 100);
         musicslide.valueProperty().addListener((Observable o) -> {
-            SavvasKotzamanidisJavaFX210055.mediaPlayer.setVolume(musicslide.getValue() / 100);
+            Hangman.mediaPlayer.setVolume(musicslide.getValue() / 100);
         });
         
         
@@ -70,7 +70,7 @@ public class SettingsSceneController implements Initializable {
     @FXML
     private void btnReturnAct(ActionEvent event) {
         HangManController.onClick.play();
-        SavvasKotzamanidisJavaFX210055.stage.setScene(SavvasKotzamanidisJavaFX210055.main);
+        Hangman.stage.setScene(Hangman.main);
     }    
     
     

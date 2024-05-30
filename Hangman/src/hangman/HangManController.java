@@ -2,7 +2,7 @@
 this is the main game controller for the main menu of the game
 and the set up for the main game to be ready
 */
-package savvaskotzamanidisjavafx210055;
+package Hangman;
 
 import java.io.File;
 import java.io.IOException;
@@ -79,7 +79,7 @@ public class HangManController extends GameSceneController implements Initializa
     @FXML
     private void btnSettingsAct(ActionEvent event){
         onClick.play();
-        SavvasKotzamanidisJavaFX210055.stage.setScene(SavvasKotzamanidisJavaFX210055.settings);
+        Hangman.stage.setScene(Hangman.settings);
     }
 
     
@@ -149,6 +149,6 @@ public class HangManController extends GameSceneController implements Initializa
         WordDecider.visibleLetters(amount);
         wordDisplay(useWord);
         GameSceneController.resetGame();
-        SavvasKotzamanidisJavaFX210055.stage.setScene(SavvasKotzamanidisJavaFX210055.game);
+        Hangman.stage.setScene(Hangman.game);
     }
 }

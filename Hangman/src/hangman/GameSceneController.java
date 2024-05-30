@@ -2,7 +2,7 @@
 this is the controller for the actual game
 this controls everything that happens while the player plays the game
 */
-package savvaskotzamanidisjavafx210055;
+package Hangman;
 
 import java.io.IOException;
 import static java.lang.String.valueOf;

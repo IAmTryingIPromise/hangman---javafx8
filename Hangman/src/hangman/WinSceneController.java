@@ -2,7 +2,7 @@
 this is the controller for the winning scene
 it comes up when the player wins
 */
-package savvaskotzamanidisjavafx210055;
+package Hangman;
 
 import java.io.IOException;
 import java.net.URL;
@@ -49,7 +49,7 @@ public class WinSceneController implements Initializable {
     private void btnMainMenuAct(ActionEvent event) {
         HangManController.onClick.play();
         GameSceneController.endStage.close();
-        SavvasKotzamanidisJavaFX210055.stage.setScene(SavvasKotzamanidisJavaFX210055.main);
+        Hangman.stage.setScene(Hangman.main);
         
     }
 
